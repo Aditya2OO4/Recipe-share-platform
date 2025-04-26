@@ -2,7 +2,7 @@ import axios from 'axios';
 
 // Create axios instance with base URL
 const api = axios.create({
-  baseURL: 'http://localhost:5000/api',
+  baseURL: 'https://recipe-share-platform.onrender.com',
 });
 
 // Add request interceptor to add auth token
